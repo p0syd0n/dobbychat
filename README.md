@@ -24,6 +24,18 @@ The geometry is pretty self explanatory, I couldn't get the widgets to resize al
 
 The notifications option is for alerting you when a message arrives to your current room, if the chat window is minimized. The options are "toast", "tone", "none".  "toast" will display a windows desktop notification, "tone" will play a tone.wav file, and "none" will disable all notifications.
 
+The ommition of a chat.config file will result in the following:
+
+Joining the lobby as a default (You cannot chat in the lobby, it is simply a list of current rooms). To rejoin the lobby, click the "rooms" option in the 
+"File" menu.
+
+A name of ```anon-[random number (0-100)] ```
+
+A geometry of 500x500
+
+Tone notifications
+
+
 dependenices:
 ```
 pygame
