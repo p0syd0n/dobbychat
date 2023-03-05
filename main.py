@@ -77,12 +77,12 @@ def toggle_sound():
   else:
     sound = True
 
-def helpp(): #github repo not made yet
-  webbrowser.open_new_tab("")
+def helpp(): 
+  webbrowser.open_new_tab("https://github.com/p0syd0n/dobbychat")
 
 
 def about():#to lazy
-  pass
+  tkm.showinfo("Info", "Made by posydon using Flask and urllib")
 
 
 def set_name():
